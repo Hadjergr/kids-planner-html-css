@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kids Daily Planner</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      background-color: #fefae0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .planner {
+      max-width: 800px;
+      margin: auto;
+      background: #fff3c7;
+      border: 4px dashed #ffa69e;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff6f61;
+      font-size: 2.5em;
+    }
+
+    .section {
+      margin: 25px 0;
+    }
+
+    .section h2 {
+      font-size: 1.5em;
+      color: #5f0f40;
+      margin-bottom: 10px;
+    }
+
+    .task-list, .notes, .activities {
+      border: 2px dashed #ffb703;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    .task-list ul {
+      list-style-type: "🌟 ";
+      padding-left: 20px;
+    }
+
+    .task-list li {
+      margin: 8px 0;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      border: 2px solid #cdb4db;
+      border-radius: 10px;
+      resize: none;
+      font-size: 1em;
+      background-color: #f8edeb;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="planner">
+    <h1>My Daily Planner 🌈</h1>
+
+    <div class="section task-list">
+      <h2>📋 Today's Tasks</h2>
+      <ul>
+        <li>Brush my teeth</li>
+        <li>Do my homework</li>
+        <li>Clean my room</li>
+        <li>Help my parents</li>
+      </ul>
+    </div>
+
+    <div class="section notes">
+      <h2>📝 Notes / What I learned today</h2>
+      <textarea placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <div class="section activities">
+      <h2>🎨 Drawing or Fun Time</h2>
+      <textarea placeholder="Draw something fun or write a story!"></textarea>
+    </div>
+  </div>
+
+</body>
+</html>
